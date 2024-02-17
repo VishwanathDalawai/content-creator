@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import { getCurrentDate } from "../utils";
+import { getCurrentDate } from "../utils.js";
 
 const VideoRecorder = () => {
   const videoRef = useRef(null);
